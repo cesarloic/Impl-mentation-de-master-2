@@ -1,33 +1,19 @@
-# PKI using Blockchain
+# PKI utilisant la Blockchain
+Il s'agit d'un projet qui implémente l'Infrastructure à Clé Publique (PKI) en utilisant la technologie Blockchain. Le projet utilise Solidity pour écrire le contrat intelligent et Ganache pour déployer et tester le contrat. React a également été utilisé pour déployer le projet sur une page web.
 
-This is a project that implements Public Key Infrastructure (PKI) using Blockchain technology. The project uses Solidity to write the smart contract and Ganache to deploy and test the contract. React was also used to deploy the project on a webpage.
+# Aperçu du projet
+Le projet est conçu pour créer un certificat pour les utilisateurs basé sur leurs clés publiques. Le certificat est généré en utilisant la technologie Blockchain, ce qui garantit qu'il est sécurisé et ne peut pas être falsifié. Le certificat inclut des informations telles que le nom de l'utilisateur, la clé publique et d'autres détails pertinents.
 
-## Project Overview
+Le contrat intelligent est responsable de la création et de la gestion des certificats. Il permet aux utilisateurs de soumettre leurs clés publiques, qui sont ensuite vérifiées et ajoutées à la Blockchain. Une fois ajoutée, le contrat génère un certificat pour l'utilisateur, qui peut être consulté et vérifié par quiconque.
 
-The project is designed to create a certificate for users based on their public keys. The certificate is generated using Blockchain technology, which ensures that it is secure and cannot be tampered with. The certificate includes information such as the user's name, public key, and other relevant details.
+React a été utilisé pour déployer le projet sur une page web, le rendant accessible à quiconque ayant une connexion Internet. La page web permet aux utilisateurs de soumettre leurs clés publiques et de recevoir leur certificat. Le certificat peut également être vérifié sur la page web, garantissant son authenticité.
 
-The smart contract is responsible for creating and managing the certificates. It allows users to submit their public keys, which are then verified and added to the Blockchain. Once added, the contract generates a certificate for the user, which can be accessed and verified by anyone.
+# Technologies Utilisées
+Les technologies suivantes ont été utilisées dans le projet :
 
-React was used to deploy the project on a webpage, making it accessible to anyone with an internet connection. The webpage allows users to submit their public keys and receive their certificate. The certificate can also be verified on the webpage, ensuring its authenticity.
+  - Solidity : Un langage de programmation utilisé pour écrire des contrats intelligents pour la Blockchain Ethereum.
+  - Ganache : Une Blockchain personnelle pour le développement Ethereum qui permet de tester et de déployer des contrats intelligents.
+  - React : Une bibliothèque JavaScript utilisée pour construire des interfaces utilisateur.
 
-## Technologies Used
-
-The following technologies were used in the project:
-
-- Solidity: A programming language used to write smart contracts for Ethereum Blockchain.
-- Ganache: A personal Blockchain for Ethereum development that allows for testing and deploying smart contracts.
-- React: A JavaScript library used for building user interfaces.
-
-### How to Run the Project
-
-To run the project, follow these steps:
-
-1. Clone the project repository from GitHub
-2. Install all necessary dependencies using npm install
-3. Start Ganache to deploy the smart contract using ganache-cli
-4. Compile and deploy the smart contract using truffle migrate
-5. Start the React application using npm start
-6. Once the application is running, you can access it by navigating to http://localhost:3000 in your web browser.
-
-Contributors
-This was project was part of our Design Project.
+ 
+ 
